@@ -1,11 +1,23 @@
 <script>
 
+import Jumbotron from './components/Jumbotron.vue';
+
+export default {
+  data() {
+    return {
+
+    };
+  },
+  components: { Jumbotron }
+}
+
+
 </script>
 
 <template>
-<h1>hello</h1>
+
+<Jumbotron></Jumbotron>
+
 </template>
 
-<style>
-
-</style>
+<style></style>
