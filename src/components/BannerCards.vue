@@ -26,7 +26,7 @@ export default {
                         {{ link.title }}
                     </div>
                     <div class="card-body">
-                        {{ link.desc }}
+                        <p>{{ link.desc }}</p>
                         <img :src="getImagePath(link.img)" alt="Image" />
                     </div>
                 </div>
