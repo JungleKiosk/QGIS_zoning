@@ -2,7 +2,7 @@ export const links = [
     {
         img: "zoning_aoi.png",
         title: ' AOI Zoning',
-        desc: "Using a raster DTM to calculate terrain elevation, slope, and exposure. From these parameters a suitability map will be created.   ",
+        desc: "Using a raster DTM to calculate terrain elevation, slope, and exposure. From these parameters a suitability map will be created. Identifying the most suitable areas for cultivation.",
         link: "",
     },
     {
@@ -20,7 +20,7 @@ export const links = [
     {
         img: "ctr.png",
         title: ' Import WMS',
-        desc: "With QGIS' \"Add WMS Layer\" function, with the URL of the desired WMS service the layers of interest will be displayed. In order to access geographical data from remote servers and use them.",
+        desc: "With QGIS' \"Add WMS Layer\" function, with the URL of the desired WMS service the layers of interest will be displayed. In order to access GIS data from remote servers.",
         link: "",
     }
 ]
