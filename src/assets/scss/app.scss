@@ -1,0 +1,9 @@
+@use './../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@use "./partials/_variables.scss" as *;
+
+body {
+    background-color: $bg_body;
+    color: $light;
+    font-family: 'Nunito', sans-serif;
+} 
