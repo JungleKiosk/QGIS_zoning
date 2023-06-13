@@ -13,13 +13,13 @@ export default {
 
 
 <template>
-
-    <div class="container my-5">
+    <div class="container my-5 jumbo txt_jumbo rounded-5">
         <div class="row justify-content-center ">
             <div class="col-12 col-lg-8 col-md-8">
-                <h1>Welcome</h1>
+                <h1 class="title">Welcome</h1>
                 <p>
-                    This project is dedicated to chestnut zoning and contour calculation using QGIS and the Python shell.
+                    This project is a collection of videos dedicated to chestnut zoning and contour calculation using QGIS
+                    and the Python shell.
                     <br> We will explore how to harness the power of QGIS, a versatile and intuitive
                     geoprocessing tool, to identify ideal areas for chestnut cultivation. <br>
                     You will see the use of raster and vector data, to analyze the altimetry, the inclination of the land
@@ -40,7 +40,5 @@ export default {
 
 
 
-<style>
-
-</style>
+<style></style>
 

@@ -6,12 +6,9 @@
 
 body {
     background-color: $bg_body;
-    color: $light;
+    color: black;
     font-family: 'Nunito', sans-serif;
-    background-image: url('./../img/chestnut_three.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    font-weight: 400;
 }
 
 img {
@@ -38,18 +35,41 @@ body::-webkit-scrollbar-track {
     border-left: 1px solid $primary;
 }
 
+.yt_icon{
+    width: 20%;
+}
 
-.card_img_zoom {
+.jumbo{
+    background-color:$dark ;
+    color: $light;
+}
+
+.title{
+    font-weight: 500;
+    color: $info;
+}
+
+
+.yt_icon{
     transition: transform 0.2s ease-in-out;
     transform-origin: center center;
 }
 
-.card_img_zoom:hover {
-    transform: scale(1.1);
-    background-color: $primary;
-    color: $light;
+.yt_icon:hover {
+    transform: scale(1.3);
 }
 
-.bg_comp{
-    background-color: $bg_body;
+.card_title{
+    font-weight: bold;
+    color: $info;
+}
+
+.card a{
+    color: $info;
+    text-decoration: none;
+}
+
+.bg_card{
+    background-color:$dark ;
+    color: $light;
 }
