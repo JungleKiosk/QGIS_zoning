@@ -27,7 +27,7 @@ export default {
                     </div>
                     <div class="card-body">
                         <p>{{ link.desc }}</p>
-                        <img :src="getImagePath(link.img)" alt="Image" />
+                        <img class=" rounded-pill" :src="getImagePath(link.img)" alt="Image" />
                     </div>
                 </div>
             </div>
