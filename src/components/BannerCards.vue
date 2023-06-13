@@ -18,21 +18,30 @@ export default {
 </script>
 
 <template>
-    <div class="container my-5">
-        <div class="row align-items-stretch">
-            <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
-                <div class="card my-3 d-flex">
-                    <div class="card-header">
-                        {{ link.title }}
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <p>{{ link.desc }}</p>
-                        <img class="rounded-pill" :src="getImagePath(link.img)" alt="Image" style="height: 200px;" />
+    <section class="bg_container">
+        <div class="container my-5">
+            <div class="row align-items-stretch">
+                <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
+                    <div class="card my-3 d-flex">
+                        <div class="card-header">
+                            {{ link.title }}
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <p>{{ link.desc }}</p>
+                            <img class="rounded-pill card_img_zoom" :src="getImagePath(link.img)" alt="Image"
+                                style="height: 200px;" />
+                            <div class="link_video py-1">
+                                <a :href="link.video" target="_blank" >
+                                    go to video
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+    </section>
 </template>
   
 

@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-  
+
   <Jumbotron></Jumbotron>
   <BannerCards :links="linksData"></BannerCards>
 
