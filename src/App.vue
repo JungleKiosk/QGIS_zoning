@@ -3,6 +3,7 @@
 import BannerCards from './components/BannerCards.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import { links } from './data/linkVideo.js';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   data() {
@@ -10,7 +11,7 @@ export default {
 
     };
   },
-  components: { Jumbotron, BannerCards },
+  components: { Jumbotron, BannerCards, AppFooter },
   computed: {
     linksData() {
       return links;
@@ -25,6 +26,7 @@ export default {
 
   <Jumbotron></Jumbotron>
   <BannerCards :links="linksData"></BannerCards>
+  <AppFooter></AppFooter>
 
 </template>
 

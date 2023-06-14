@@ -21,7 +21,7 @@ export default {
     <div class="container my-5">
         <div class="row align-items-stretch">
             <div v-for="link in links" :key="link.title" class="col-12 col-lg-3 col-md-6">
-                <div class="card rounded-5 bg_card my-3 d-flex">
+                <div class="card rounded-4 bg_card my-3 d-flex">
                     <div class="card-header card_title">
                         {{ link.title }}
                     </div>
@@ -40,6 +40,7 @@ export default {
             </div>
         </div>
     </div>
+ 
 </template>
   
 

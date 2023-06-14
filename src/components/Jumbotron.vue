@@ -13,7 +13,7 @@ export default {
 
 
 <template>
-    <div class="container my-5 jumbo txt_jumbo rounded-5">
+    <div class="container my-5 jumbo txt_jumbo rounded-4">
         <div class="row justify-content-center ">
             <div class="col-12 col-lg-8 col-md-8">
                 <h1 class="title">Welcome</h1>
