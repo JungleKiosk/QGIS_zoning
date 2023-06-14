@@ -47,7 +47,6 @@
 
     .col_github {
         margin-bottom: 3rem;
-
     }
 
     .txt_github {
@@ -61,7 +60,7 @@
         padding: 0.1rem;
         background-color: $neutral;
         border-radius: 20%;
-        box-shadow: 0px 0px 30px $neutral;
+        box-shadow: 0px 0px 10px $neutral;
         margin-right: 1rem;
     }
 
@@ -73,9 +72,9 @@
     .zoom-effect-contact:hover {
         transform: scale(1.5);
         border: 0;
-        border-bottom: 3px solid $secondary;
-        border-right: 3px solid $secondary;
-        box-shadow: 0px 0px 20px $secondary;
+        border-bottom: 3px solid $info;
+        border-right: 3px solid $info;
+        box-shadow: 0px 0px 20px $info;
     }
 
 }

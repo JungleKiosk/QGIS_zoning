@@ -1,101 +1,101 @@
 
 export const goalsArray = [
     {
-        img: "g1.svg",
+        img: "goals2030/g1.svg",
         link: "https://sdgs.un.org/goals/goal1",
 
     },
     {
-        img: "g2.svg",
+        img: "goals2030/g2.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     , 
     {
-        img: "g3.svg",
+        img: "goals2030/g3.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g4.svg",
+        img: "goals2030/g4.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g5.svg",
+        img: "goals2030/g5.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g6.svg",
+        img: "goals2030/g6.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     },
     {
-        img: "g7.svg",
+        img: "goals2030/g7.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g8.svg",
+        img: "goals2030/g8.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g9.svg",
+        img: "goals2030/g9.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g10.svg",
+        img: "goals2030/g10.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g11.svg",
+        img: "goals2030/g11.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g12.svg",
+        img: "goals2030/g12.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g13.svg",
+        img: "goals2030/g13.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g14.svg",
+        img: "goals2030/g14.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g15.svg",
+        img: "goals2030/g15.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g16.svg",
+        img: "goals2030/g16.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
     ,
     {
-        img: "g17.svg",
+        img: "goals2030/g17.svg",
         link: "https://sdgs.un.org/goals/goal2",
 
     }
