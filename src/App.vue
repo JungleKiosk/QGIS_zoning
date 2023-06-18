@@ -1,5 +1,7 @@
 <script>
 
+import AppHeader from './components/AppHeader.vue';
+
 import BannerCards from './components/BannerCards.vue';
 import Jumbotron from './components/Jumbotron.vue';
 import { links } from './data/linkVideo.js';
@@ -11,7 +13,7 @@ export default {
 
     };
   },
-  components: { Jumbotron, BannerCards, AppFooter },
+  components: { AppHeader, Jumbotron, BannerCards, AppFooter },
   computed: {
     linksData() {
       return links;
@@ -23,7 +25,7 @@ export default {
 </script>
 
 <template>
-
+  <AppHeader></AppHeader>
   <Jumbotron></Jumbotron>
   <BannerCards :links="linksData"></BannerCards>
   <AppFooter></AppFooter>
