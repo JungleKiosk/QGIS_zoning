@@ -34,9 +34,9 @@ export default {
                 href="https://corsi.unibo.it/2cycle/LandscapePlanningManagement" target="_blank"><span
                   class="txt_primary color_txt_link"> PROGESA</span> </a><br>
               The study program contribute to the pursuit of the <br>
-              2030 Agenda ONU for
-              <a href="https://www.un.org/sustainabledevelopment/" target="_blank"><span class="txt_primary color_txt_link"
-                  target="_blank">Sustainable
+              UN 2030 Agenda for
+              <a href="https://www.un.org/sustainabledevelopment/" target="_blank"><span
+                  class="txt_primary color_txt_link" target="_blank">Sustainable
                   Development Goals.</span> </a> <br>
               I have a passion for the environment and for technology.<br>
             </p>
