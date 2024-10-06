@@ -66,7 +66,7 @@ export default {
                 <a href="https://github.com/JungleKiosk" target="_blank">
                   <img class="text-center my_contact zoom-effect-contact" src="../assets/img/github_logo.svg" alt="">
                 </a>
-                <a href="https://www.youtube.com/@kioskgis" target="_blank">
+                <a href="https://www.youtube.com/@JungleKiosk" target="_blank">
                   <img class="text-center my_contact zoom-effect-contact" src="../assets/img/youtube_footer.svg" alt="">
                 </a>
               </div>
